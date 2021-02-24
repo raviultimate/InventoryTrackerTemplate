@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_scan_payload">
+    <sys_app_scan_payload action="INSERT_OR_UPDATE">
+        <referenced_table>sys_app</referenced_table>
+        <scan_instance>6e0d7bcd212220107f099fc337706afe</scan_instance>
+        <serialized_record><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_highlighted_value_condition"><sys_highlighted_value_condition action="INSERT_OR_UPDATE"><conditions>request_status=submitted^EQ</conditions><highlighted_value display_value="">!!!sys_id_577!!!</highlighted_value><order>200</order><show_icon>true</show_icon><status>info</status><sys_class_name>sys_highlighted_value_condition</sys_class_name><sys_created_by/><sys_created_on/><sys_id>!!!sys_id_578!!!</sys_id><sys_mod_count/><sys_name/><sys_package display_value="">!!!app_sys_id!!!</sys_package><sys_policy/><sys_scope display_value="">!!!app_sys_id!!!</sys_scope><sys_update_name/><sys_updated_by/><sys_updated_on/><value_override/></sys_highlighted_value_condition></record_update>]]></serialized_record>
+        <source_class>sys_highlighted_value_condition</source_class>
+        <source_id>eb5fae0ac3f31410051653eeb840dd53</source_id>
+        <source_name/>
+        <source_sys_id>06fa35855b2120109779b9a23381c7d1</source_sys_id>
+        <sys_class_name>sys_app_scan_payload</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 06:59:15</sys_created_on>
+        <sys_id>ac8dff814f622010e921b8c5652cf029</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_highlighted_value_condition</sys_name>
+        <sys_package display_value="Inventory Tracker Template" source="x_snc_inventory_0">a60d7bcd70222010f87717bbfe6503ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory Tracker Template">a60d7bcd70222010f87717bbfe6503ff</sys_scope>
+        <sys_update_name>sys_app_scan_payload_ac8dff814f622010e921b8c5652cf029</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 06:59:15</sys_updated_on>
+        <version>1</version>
+    </sys_app_scan_payload>
+</record_update>

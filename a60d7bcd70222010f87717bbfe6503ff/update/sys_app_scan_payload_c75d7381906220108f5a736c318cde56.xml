@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_scan_payload">
+    <sys_app_scan_payload action="INSERT_OR_UPDATE">
+        <referenced_table>sys_app</referenced_table>
+        <scan_instance>6e0d7bcd212220107f099fc337706afe</scan_instance>
+        <serialized_record><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="item_photo" table="!!!table_name_0!!!"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Item photo</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>item_photo</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="">file_attachment</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>!!!table_name_0!!!</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by/><sys_created_on/><sys_id>!!!sys_id_335!!!</sys_id><sys_mod_count/><sys_name/><sys_package display_value="">!!!app_sys_id!!!</sys_package><sys_policy/><sys_scope display_value="">!!!app_sys_id!!!</sys_scope><sys_update_name/><sys_updated_by/><sys_updated_on/><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></serialized_record>
+        <source_class>sys_dictionary</source_class>
+        <source_id>eb5fae0ac3f31410051653eeb840dd53</source_id>
+        <source_name>Item photo</source_name>
+        <source_sys_id>bb1d2b0570222010f87717bbfe6503a2</source_sys_id>
+        <sys_class_name>sys_app_scan_payload</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 06:58:36</sys_created_on>
+        <sys_id>c75d7381906220108f5a736c318cde56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_dictionary</sys_name>
+        <sys_package display_value="Inventory Tracker Template" source="x_snc_inventory_0">a60d7bcd70222010f87717bbfe6503ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory Tracker Template">a60d7bcd70222010f87717bbfe6503ff</sys_scope>
+        <sys_update_name>sys_app_scan_payload_c75d7381906220108f5a736c318cde56</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 06:58:36</sys_updated_on>
+        <version>1</version>
+    </sys_app_scan_payload>
+</record_update>

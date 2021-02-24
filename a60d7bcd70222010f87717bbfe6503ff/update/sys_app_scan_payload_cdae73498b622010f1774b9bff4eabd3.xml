@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_scan_payload">
+    <sys_app_scan_payload action="INSERT_OR_UPDATE">
+        <referenced_table>sys_app</referenced_table>
+        <scan_instance>6e0d7bcd212220107f099fc337706afe</scan_instance>
+        <serialized_record><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme"><sys_ux_theme action="INSERT_OR_UPDATE"><active>true</active><description/><name>Inventory Tracker Portal Theme</name><parent display_value="Default">a309795273230010fd843c78caf6a724</parent><sys_class_name>sys_ux_theme</sys_class_name><sys_created_by/><sys_created_on/><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>!!!sys_id_61!!!</sys_id><sys_mod_count/><sys_name/><sys_overrides/><sys_package display_value="">!!!app_sys_id!!!</sys_package><sys_policy/><sys_scope display_value="">!!!app_sys_id!!!</sys_scope><sys_update_name/><sys_updated_by/><sys_updated_on/><theme>{  &#13;
+    "--now-font-family": "Roboto",&#13;
+    "--now-display-type--font-family": "Cabin",&#13;
+    "--now-display-type_label--font-family": "Roboto",&#13;
+    "--now-display-type_value--font-family": "Roboto",&#13;
+    &#13;
+    "--now-color--primary-0": "218,229,233",&#13;
+    "--now-color--primary-1": "11,83,110",&#13;
+    "--now-color--primary-2": "9,63,83",&#13;
+    "--now-color--primary-3": "6,42,55",&#13;
+    "--now-color--secondary-0": "218,229,233",&#13;
+    "--now-color--secondary-1": "11,83,110",&#13;
+    "--now-color--secondary-2": "9,63,83",&#13;
+    "--now-color--secondary-3": "6,42,55",&#13;
+	"--now-canvas-header-container--background-color": "41,62,64",&#13;
+    &#13;
+    "--now-button--primary--border-width": "0",&#13;
+    "--now-button--primary--color": "var(--now-color--neutral-18)",&#13;
+    "--now-button--primary--color--hover": "var(--now-color--neutral-18)",&#13;
+    "--now-button--primary--color--active": "var(--now-color--neutral-18)",&#13;
+    "--now-button--primary--background-color": "247,116,88",&#13;
+    "--now-button--primary--background-color--hover": "186,87,66",&#13;
+    "--now-button--primary--background-color--active": "124,58,44",&#13;
+    "--now-button--secondary--border-color": "247,116,88",&#13;
+    "--now-button--secondary--border-color--hover": "247,116,88",&#13;
+    "--now-button--secondary--border-color--active": "247,116,88",&#13;
+    "--now-button--secondary--color": "var(--now-color--neutral-18)",&#13;
+    "--now-button--secondary--color--hover": "var(--now-color--neutral-18)",&#13;
+    "--now-button--secondary--color--active": "var(--now-color--neutral-18)",&#13;
+    "--now-button--secondary--background-color": "var(--now-color--neutral-0)",&#13;
+    "--now-button--secondary--background-color--hover": "254,234,230",&#13;
+    "--now-button--secondary--background-color--active": "254,234,230",&#13;
+    "--now-button--background-color--disabled": "247,116,88",&#13;
+    "--now-button--tertiary--color": "var(--now-color--primary-1)",&#13;
+    "--now-color--inventory--background-color": "233,250,253",&#13;
+    "font-family": "Roboto",&#13;
+    "--now-heading--header-primary--font-family": "Cabin",&#13;
+    "--now-heading--header-secondary--font-family": "Cabin",&#13;
+    "--now-heading--header-tertiary--font-family": "Cabin",&#13;
+    "--now-card-header_heading--primary--font-family": "Cabin",&#13;
+    "--now-breadcrumbs--color--current": "var(--now-color--primary-1)",&#13;
+    "--now-breadcrumbs--color": "var(--now-color--primary-1)",&#13;
+    "--now-breadcrumbs--font-weight": "600",&#13;
+    "--now-heading--header-primary--font-weight": "bold",&#13;
+    "--now-heading--header-secondary--font-weight": "bold",&#13;
+    "--now-line-height-crop--before": "-0.2125em",&#13;
+	"--now-line-height-crop--after": "-0.275em"&#13;
+ }</theme></sys_ux_theme></record_update>]]></serialized_record>
+        <source_class>sys_ux_theme</source_class>
+        <source_id>eb5fae0ac3f31410051653eeb840dd53</source_id>
+        <source_name>Inventory Tracker Portal Theme</source_name>
+        <source_sys_id>0f29e9a00f7420103e97d55566767ed8</source_sys_id>
+        <sys_class_name>sys_app_scan_payload</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 07:04:12</sys_created_on>
+        <sys_id>cdae73498b622010f1774b9bff4eabd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_ux_theme</sys_name>
+        <sys_package display_value="Inventory Tracker Template" source="x_snc_inventory_0">a60d7bcd70222010f87717bbfe6503ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory Tracker Template">a60d7bcd70222010f87717bbfe6503ff</sys_scope>
+        <sys_update_name>sys_app_scan_payload_cdae73498b622010f1774b9bff4eabd3</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 07:04:12</sys_updated_on>
+        <version>1</version>
+    </sys_app_scan_payload>
+</record_update>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_scan_payload">
+    <sys_app_scan_payload action="INSERT_OR_UPDATE">
+        <referenced_table>sys_app</referenced_table>
+        <scan_instance>6e0d7bcd212220107f099fc337706afe</scan_instance>
+        <serialized_record><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen"><sys_ux_screen action="INSERT_OR_UPDATE"><active>true</active><app_config display_value="">!!!sys_id_57!!!</app_config><description/><event_mappings/><macroponent display_value="">!!!sys_id_2052!!!</macroponent><macroponent_config>{
+  "label" : "",
+  "bare" : true,
+  "scrollable" : "y",
+  "headerLevel" : "1",
+  "interceptNotifications" : false,
+  "propagateNotifications" : false,
+  "tinyId" : ""
+}</macroponent_config><name>Attachments default</name><order>0</order><parent_macroponent display_value="">!!!sys_id_1819!!!</parent_macroponent><required_translations>[]</required_translations><screen_condition/><screen_type/><sys_class_name>sys_ux_screen</sys_class_name><sys_created_by/><sys_created_on/><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>!!!sys_id_1537!!!</sys_id><sys_mod_count/><sys_name/><sys_overrides/><sys_package display_value="">!!!app_sys_id!!!</sys_package><sys_policy/><sys_scope display_value="">!!!app_sys_id!!!</sys_scope><sys_update_name/><sys_updated_by/><sys_updated_on/></sys_ux_screen><sys_translated_text action="delete_multiple" query="documentkey=null"/></record_update>]]></serialized_record>
+        <source_class>sys_ux_screen</source_class>
+        <source_id>eb5fae0ac3f31410051653eeb840dd53</source_id>
+        <source_name>Attachments default</source_name>
+        <source_sys_id>454ba41c8dc22010f87788f7e050c84e</source_sys_id>
+        <sys_class_name>sys_app_scan_payload</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 07:04:06</sys_created_on>
+        <sys_id>e79eff09446220105530166bf771abc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_ux_screen</sys_name>
+        <sys_package display_value="Inventory Tracker Template" source="x_snc_inventory_0">a60d7bcd70222010f87717bbfe6503ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory Tracker Template">a60d7bcd70222010f87717bbfe6503ff</sys_scope>
+        <sys_update_name>sys_app_scan_payload_e79eff09446220105530166bf771abc6</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 07:04:06</sys_updated_on>
+        <version>1</version>
+    </sys_app_scan_payload>
+</record_update>

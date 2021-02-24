@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_scan_payload">
+    <sys_app_scan_payload action="INSERT_OR_UPDATE">
+        <referenced_table>sys_app</referenced_table>
+        <scan_instance>6e0d7bcd212220107f099fc337706afe</scan_instance>
+        <serialized_record><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_theme"><sys_ux_theme action="INSERT_OR_UPDATE"><active>true</active><description/><name>Inventory Tracker Workspace Theme</name><parent display_value="">!!!sys_id_61!!!</parent><sys_class_name>sys_ux_theme</sys_class_name><sys_created_by/><sys_created_on/><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>!!!sys_id_58!!!</sys_id><sys_mod_count/><sys_name/><sys_overrides/><sys_package display_value="">!!!app_sys_id!!!</sys_package><sys_policy/><sys_scope display_value="">!!!app_sys_id!!!</sys_scope><sys_update_name/><sys_updated_by/><sys_updated_on/><theme>{&#13;
+    "--now-canvas-header-container-ws--background-color": "11, 83, 110",&#13;
+    "--now-canvas-toolbar--background-color": "205, 243, 247",&#13;
+    "--now-canvas-toolbar-button--background-color--focus": "247, 116, 88",&#13;
+    "--now-canvas-toolbar-button--background-color--hover": "247, 116, 88",&#13;
+    "--now-canvas-toolbar-button--color": "0,0,0",&#13;
+    "--now-canvas-toolbar-button--background-color--active": "247, 116, 88",&#13;
+    "--now-display-type--font-family": "Roboto",&#13;
+    "--now-heading--header-primary--font-family": "Roboto",&#13;
+    "--now-heading--header-secondary--font-family": "Roboto",&#13;
+    "--now-heading--header-tertiary--font-family": "Roboto",&#13;
+    "--now-card-header_heading--primary--font-family": "Roboto",&#13;
+    "--now-heading--header-primary--font-weight": "Regular",&#13;
+    "--now-heading--header-secondary--font-weight": "Regular",&#13;
+    "--now-tabs--background-color--selected": "transparent",&#13;
+    "--now-tabs--background-color--hover":"transparent"&#13;
+}&#13;
+</theme></sys_ux_theme></record_update>]]></serialized_record>
+        <source_class>sys_ux_theme</source_class>
+        <source_id>eb5fae0ac3f31410051653eeb840dd53</source_id>
+        <source_name>Inventory Tracker Workspace Theme</source_name>
+        <source_sys_id>2e87826a0f5920103e97d55566767ea3</source_sys_id>
+        <sys_class_name>sys_app_scan_payload</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 07:04:12</sys_created_on>
+        <sys_id>81ae7349cb622010ff22bcb566192ddf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_ux_theme</sys_name>
+        <sys_package display_value="Inventory Tracker Template" source="x_snc_inventory_0">a60d7bcd70222010f87717bbfe6503ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory Tracker Template">a60d7bcd70222010f87717bbfe6503ff</sys_scope>
+        <sys_update_name>sys_app_scan_payload_81ae7349cb622010ff22bcb566192ddf</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 07:04:12</sys_updated_on>
+        <version>1</version>
+    </sys_app_scan_payload>
+</record_update>

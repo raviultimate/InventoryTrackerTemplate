@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_scan_payload">
+    <sys_app_scan_payload action="INSERT_OR_UPDATE">
+        <referenced_table>sys_app</referenced_table>
+        <scan_instance>6e0d7bcd212220107f099fc337706afe</scan_instance>
+        <serialized_record><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_config"><sys_ux_app_config action="INSERT_OR_UPDATE"><active>true</active><default_route_type/><description>!!!ux_short_description_portal!!!</description><encode_query_string>false</encode_query_string><icon/><landing_path>home</landing_path><name>!!!ux_experience_name_portal!!! Config</name><prefetch_limits/><sys_class_name>sys_ux_app_config</sys_class_name><sys_created_by/><sys_created_on/><sys_id>!!!sys_id_60!!!</sys_id><sys_mod_count/><sys_name/><sys_package display_value="">!!!app_sys_id!!!</sys_package><sys_policy/><sys_scope display_value="">!!!app_sys_id!!!</sys_scope><sys_update_name/><sys_updated_by/><sys_updated_on/></sys_ux_app_config><sys_translated_text action="delete_multiple" query="documentkey=null"/></record_update>]]></serialized_record>
+        <source_class>sys_ux_app_config</source_class>
+        <source_id>eb5fae0ac3f31410051653eeb840dd53</source_id>
+        <source_name>Inventory Tracker Portal App Config</source_name>
+        <source_sys_id>01d35c365b0020102f11b9a23381c710</source_sys_id>
+        <sys_class_name>sys_app_scan_payload</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 07:03:20</sys_created_on>
+        <sys_id>187ebfc516622010700d99c58097d1f7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>sys_ux_app_config</sys_name>
+        <sys_package display_value="Inventory Tracker Template" source="x_snc_inventory_0">a60d7bcd70222010f87717bbfe6503ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory Tracker Template">a60d7bcd70222010f87717bbfe6503ff</sys_scope>
+        <sys_update_name>sys_app_scan_payload_187ebfc516622010700d99c58097d1f7</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 07:18:03</sys_updated_on>
+        <version>1</version>
+    </sys_app_scan_payload>
+</record_update>

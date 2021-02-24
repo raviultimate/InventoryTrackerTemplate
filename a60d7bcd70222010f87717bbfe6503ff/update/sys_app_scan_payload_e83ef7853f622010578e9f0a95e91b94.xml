@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_scan_payload">
+    <sys_app_scan_payload action="INSERT_OR_UPDATE">
+        <referenced_table>sys_app</referenced_table>
+        <scan_instance>6e0d7bcd212220107f099fc337706afe</scan_instance>
+        <serialized_record><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Inventory Control activity formatter fields</description><ignore_cache>false</ignore_cache><is_private>false</is_private><name>glide.ui.!!!scope_name!!!_inventory_control_activity.fields</name><read_roles/><suffix>sn_inventory_trakr</suffix><sys_class_name>sys_properties</sys_class_name><sys_created_by/><sys_created_on/><sys_id>!!!sys_id_1384!!!</sys_id><sys_mod_count/><sys_name/><sys_package display_value="">!!!app_sys_id!!!</sys_package><sys_policy/><sys_scope display_value="">!!!app_sys_id!!!</sys_scope><sys_update_name/><sys_updated_by/><sys_updated_on/><type>string</type><value>name,category,description,image,in_stock,item_cost,item_number,loan_duration,manufacturer,on_loan,inventory_status,reorder_status,work_notes</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=null"/></record_update>]]></serialized_record>
+        <source_class>sys_properties</source_class>
+        <source_id>eb5fae0ac3f31410051653eeb840dd53</source_id>
+        <source_name>glide.ui.sn_inventory_trakr_inventory_control_activity.fields</source_name>
+        <source_sys_id>36d9cfe1c3fd201088db53eeb840dd05</source_sys_id>
+        <sys_class_name>sys_app_scan_payload</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 07:02:15</sys_created_on>
+        <sys_id>e83ef7853f622010578e9f0a95e91b94</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_properties</sys_name>
+        <sys_package display_value="Inventory Tracker Template" source="x_snc_inventory_0">a60d7bcd70222010f87717bbfe6503ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory Tracker Template">a60d7bcd70222010f87717bbfe6503ff</sys_scope>
+        <sys_update_name>sys_app_scan_payload_e83ef7853f622010578e9f0a95e91b94</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 07:02:15</sys_updated_on>
+        <version>1</version>
+    </sys_app_scan_payload>
+</record_update>

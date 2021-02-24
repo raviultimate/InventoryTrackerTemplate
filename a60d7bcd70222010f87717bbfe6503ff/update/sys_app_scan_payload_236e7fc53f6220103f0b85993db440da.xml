@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_scan_payload">
+    <sys_app_scan_payload action="INSERT_OR_UPDATE">
+        <referenced_table>sys_app</referenced_table>
+        <scan_instance>6e0d7bcd212220107f099fc337706afe</scan_instance>
+        <serialized_record><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_addon_event_mapping"><sys_ux_addon_event_mapping action="INSERT_OR_UPDATE"><active>true</active><description>Reference Search field decorator wired to Standard Record Page's Open Modal</description><name>Record Page Tabs Reference Search</name><parent_macroponent display_value="">!!!sys_id_1819!!!</parent_macroponent><source_da display_value="ref_search">c6542741ff13101035be517f793bf1bb</source_da><source_element_id>record_page_tabs_1</source_element_id><sys_class_name>sys_ux_addon_event_mapping</sys_class_name><sys_created_by/><sys_created_on/><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>!!!sys_id_1844!!!</sys_id><sys_mod_count/><sys_name/><sys_overrides/><sys_package display_value="">!!!app_sys_id!!!</sys_package><sys_policy/><sys_scope display_value="">!!!app_sys_id!!!</sys_scope><sys_update_name/><sys_updated_by/><sys_updated_on/><target_event display_value="RECORD#OPEN_MODAL">509663140f0310107d20409dc4767e00</target_event><target_payload_mapping>{&#13;
+	  "type": "MAP_CONTAINER",&#13;
+	  "container": {&#13;
+		"route": {&#13;
+		  "type": "JSON_LITERAL",&#13;
+		  "value": "modal_ref_lookup"&#13;
+		},&#13;
+		"size": {&#13;
+		  "type": "JSON_LITERAL", &#13;
+		  "value": "lg"&#13;
+		},&#13;
+		"fields": {&#13;
+		  "type": "MAP_CONTAINER",&#13;
+		  "container": {&#13;
+			"table": {&#13;
+			  "type": "EVENT_PAYLOAD_BINDING",&#13;
+			  "binding": {&#13;
+				"address": ["parentTable"]&#13;
+			  }&#13;
+			},&#13;
+			"sysId": {&#13;
+			  "type": "EVENT_PAYLOAD_BINDING",&#13;
+			  "binding": {&#13;
+				"address": ["parentSysId"]&#13;
+			  }&#13;
+			},&#13;
+			"size": {&#13;
+			  "type": "JSON_LITERAL",&#13;
+			  "value": "md"&#13;
+			},&#13;
+			"referenceField": {&#13;
+			  "type": "EVENT_PAYLOAD_BINDING",&#13;
+			  "binding": {&#13;
+				"address": ["referenceField"]&#13;
+			  }&#13;
+			},&#13;
+			"label": {&#13;
+			  "type": "EVENT_PAYLOAD_BINDING",&#13;
+			  "binding": {&#13;
+				"address": ["fieldLabel"]&#13;
+			  }&#13;
+			},&#13;
+			"serializedChanges": {&#13;
+						"type": "EVENT_PAYLOAD_BINDING",&#13;
+						"binding": {&#13;
+							"address": [&#13;
+								"serializedChanges"&#13;
+							]&#13;
+						}&#13;
+					},&#13;
+			  "encodedRecord": {&#13;
+						"type": "EVENT_PAYLOAD_BINDING",&#13;
+						"binding": {&#13;
+							"address": [&#13;
+								"encodedRecord"&#13;
+							]&#13;
+						}&#13;
+					}&#13;
+		  }&#13;
+		},&#13;
+		"params": {&#13;
+		  "type": "JSON_LITERAL",&#13;
+		  "value": {}&#13;
+		}&#13;
+	  }&#13;
+	}</target_payload_mapping></sys_ux_addon_event_mapping></record_update>]]></serialized_record>
+        <source_class>sys_ux_addon_event_mapping</source_class>
+        <source_id>eb5fae0ac3f31410051653eeb840dd53</source_id>
+        <source_name>Record Page Tabs Reference Search</source_name>
+        <source_sys_id>b86c24608d8e2010f87788f7e050c8e2</source_sys_id>
+        <sys_class_name>sys_app_scan_payload</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 07:03:16</sys_created_on>
+        <sys_id>236e7fc53f6220103f0b85993db440da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_ux_addon_event_mapping</sys_name>
+        <sys_package display_value="Inventory Tracker Template" source="x_snc_inventory_0">a60d7bcd70222010f87717bbfe6503ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory Tracker Template">a60d7bcd70222010f87717bbfe6503ff</sys_scope>
+        <sys_update_name>sys_app_scan_payload_236e7fc53f6220103f0b85993db440da</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 07:03:16</sys_updated_on>
+        <version>1</version>
+    </sys_app_scan_payload>
+</record_update>

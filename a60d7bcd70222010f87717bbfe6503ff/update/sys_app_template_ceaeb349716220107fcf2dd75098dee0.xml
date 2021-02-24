@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_template">
+    <sys_app_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <create_app>true</create_app>
+        <flow display_value="Application Template - Inventory Tracker Template">daaeb34970622010f87717bbfe6503f5</flow>
+        <name>Inventory Tracker Template</name>
+        <sys_class_name>sys_app_template</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 07:04:16</sys_created_on>
+        <sys_id>ceaeb349716220107fcf2dd75098dee0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Inventory Tracker Template</sys_name>
+        <sys_package display_value="Inventory Tracker Template" source="x_snc_inventory_0">a60d7bcd70222010f87717bbfe6503ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory Tracker Template">a60d7bcd70222010f87717bbfe6503ff</sys_scope>
+        <sys_update_name>sys_app_template_ceaeb349716220107fcf2dd75098dee0</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 07:56:48</sys_updated_on>
+        <type display_value="Payload &amp; Map">955f08a05b03101083f30f216581c740</type>
+        <ux_framework_component display_value="sn-application-template-wizard">1ecf9a0e28e96e12a39fd11c51397fa4</ux_framework_component>
+    </sys_app_template>
+    <sys_translated_text action="delete_multiple" query="documentkey=ceaeb349716220107fcf2dd75098dee0"/>
+</record_update>

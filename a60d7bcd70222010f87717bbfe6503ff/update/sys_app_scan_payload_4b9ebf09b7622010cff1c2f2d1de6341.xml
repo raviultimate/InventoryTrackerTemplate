@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_scan_payload">
+    <sys_app_scan_payload action="INSERT_OR_UPDATE">
+        <referenced_table>sys_app</referenced_table>
+        <scan_instance>6e0d7bcd212220107f099fc337706afe</scan_instance>
+        <serialized_record><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description>Toolbar configuration for inventory tracker workspace, which contains links to navigate home page and list page.</description><name>chrome_toolbar</name><page display_value="">!!!sys_id_2058!!!</page><required_translations>[{"message":"List","comment":""},{"message":"Home","comment":""}]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by/><sys_created_on/><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>!!!sys_id_2075!!!</sys_id><sys_mod_count/><sys_name/><sys_package display_value="">!!!app_sys_id!!!</sys_package><sys_policy/><sys_scope display_value="">!!!app_sys_id!!!</sys_scope><sys_update_name/><sys_updated_by/><sys_updated_on/><type>json</type><unique_name>!!!scope_name!!!.!!!sys_id_2058!!!.root.chrome_toolbar</unique_name><value>[&#13;
+  {&#13;
+    "id": "home",&#13;
+    "label": "Home",&#13;
+    "icon": "home-outline",&#13;
+    "viewportInfo": {},&#13;
+    "routeInfo": {&#13;
+      "route": "home"&#13;
+    },&#13;
+    "group": "top",&#13;
+    "badge": {},&#13;
+    "presence": {},&#13;
+    "availability": {}&#13;
+  },&#13;
+  {&#13;
+    "id": "list",&#13;
+    "label": "List",&#13;
+    "icon": "list-outline",&#13;
+    "viewportInfo": {},&#13;
+    "routeInfo": {&#13;
+      "route": "list"&#13;
+    },&#13;
+    "group": "top",&#13;
+    "badge":{},&#13;
+    "presence": {},&#13;
+    "availability": {}&#13;
+  }&#13;
+]</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=null"/></record_update>]]></serialized_record>
+        <source_class>sys_ux_page_property</source_class>
+        <source_id>eb5fae0ac3f31410051653eeb840dd53</source_id>
+        <source_name>chrome_toolbar</source_name>
+        <source_sys_id>ef8698fc0f2c2010bfc0d55566767ed4</source_sys_id>
+        <sys_class_name>sys_app_scan_payload</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 07:04:04</sys_created_on>
+        <sys_id>4b9ebf09b7622010cff1c2f2d1de6341</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_ux_page_property</sys_name>
+        <sys_package display_value="Inventory Tracker Template" source="x_snc_inventory_0">a60d7bcd70222010f87717bbfe6503ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory Tracker Template">a60d7bcd70222010f87717bbfe6503ff</sys_scope>
+        <sys_update_name>sys_app_scan_payload_4b9ebf09b7622010cff1c2f2d1de6341</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 07:04:04</sys_updated_on>
+        <version>1</version>
+    </sys_app_scan_payload>
+</record_update>

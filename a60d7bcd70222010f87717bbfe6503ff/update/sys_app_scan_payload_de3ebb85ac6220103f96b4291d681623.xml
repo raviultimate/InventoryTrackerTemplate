@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_scan_payload">
+    <sys_app_scan_payload action="INSERT_OR_UPDATE">
+        <referenced_table>sys_app</referenced_table>
+        <scan_instance>6e0d7bcd212220107f099fc337706afe</scan_instance>
+        <serialized_record>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Activates/disables inventory manager fields based on role. For employee role, disables inventory manager fields(on_loan_item,comments,work_notes &amp;amp; request_status). For inventory manager role, activates inventory manager fields and disables all other fields. For admin role, every field is active.&lt;/description&gt;&lt;field&gt;comments&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Active/Disable Inventory manager fields&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+
+    if (g_user.hasRole('!!!user_role_8!!!')) return;
+    else if (g_user.hasRole('!!!user_role_4!!!')) {
+        g_form.setDisplay('on_loan_item', false);
+        g_form.setDisplay('work_notes', false);
+        g_form.setReadOnly('request_status', true);
+    } else if (g_user.hasRole('!!!user_role_6!!!')) {
+        var fields = g_form.getEditableFields();
+        var manager_fields = ['on_loan_item', 'work_notes', 'comments', 'request_status'];
+        for (var x = 0; x &lt; fields.length; x++) {
+            if (!manager_fields.includes(fields[x])) {
+                g_form.setReadOnly(fields[x], true);
+            }
+        }
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by/&gt;&lt;sys_created_on/&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;!!!sys_id_1417!!!&lt;/sys_id&gt;&lt;sys_mod_count/&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value=""&gt;!!!app_sys_id!!!&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value=""&gt;!!!app_sys_id!!!&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by/&gt;&lt;sys_updated_on/&gt;&lt;table&gt;!!!table_name_2!!!&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</serialized_record>
+        <source_class>sys_script_client</source_class>
+        <source_id>eb5fae0ac3f31410051653eeb840dd53</source_id>
+        <source_name>Active/Disable Inventory manager fields</source_name>
+        <source_sys_id>ea721881c388a410051653eeb840dd25</source_sys_id>
+        <sys_class_name>sys_app_scan_payload</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 07:02:22</sys_created_on>
+        <sys_id>de3ebb85ac6220103f96b4291d681623</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_script_client</sys_name>
+        <sys_package display_value="Inventory Tracker Template" source="x_snc_inventory_0">a60d7bcd70222010f87717bbfe6503ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory Tracker Template">a60d7bcd70222010f87717bbfe6503ff</sys_scope>
+        <sys_update_name>sys_app_scan_payload_de3ebb85ac6220103f96b4291d681623</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 07:02:22</sys_updated_on>
+        <version>1</version>
+    </sys_app_scan_payload>
+</record_update>

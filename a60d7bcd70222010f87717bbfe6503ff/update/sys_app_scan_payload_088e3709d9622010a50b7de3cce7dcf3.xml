@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_scan_payload">
+    <sys_app_scan_payload action="INSERT_OR_UPDATE">
+        <referenced_table>sys_app</referenced_table>
+        <scan_instance>6e0d7bcd212220107f099fc337706afe</scan_instance>
+        <serialized_record><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_composite_data_template"><sys_ux_composite_data_template action="INSERT_OR_UPDATE"><active>true</active><name>Request card</name><sys_class_name>sys_ux_composite_data_template</sys_class_name><sys_created_by/><sys_created_on/><sys_id>!!!sys_id_1992!!!</sys_id><sys_mod_count/><sys_name/><sys_package display_value="">!!!app_sys_id!!!</sys_package><sys_policy/><sys_scope display_value="">!!!app_sys_id!!!</sys_scope><sys_update_name/><sys_updated_by/><sys_updated_on/><template>{&#13;
+	"component":"now-card-evam-record",&#13;
+	"staticValues": {&#13;
+        "imageType": {"translatable": false, "key":"image"},&#13;
+		"detailLabelOne":{"translatable": false, "key": "Date Required"},&#13;
+		"detailLabelTwo":{"translatable": false, "key": "Return Date"},&#13;
+		"detailLabelThree":{"translatable": false, "key": "Inventory Type"},&#13;
+		"detailLabelFour":{"translatable": false, "key": "Stock Location"}&#13;
+	},&#13;
+	"mappings" : {&#13;
+		"titleLabel":"requested_item.name",&#13;
+        "textHeaderLabel":"number",&#13;
+        "imageURL":"requested_item.image",&#13;
+        "subtitle":"requested_item.category",&#13;
+        "detailValueOne":"request_date",&#13;
+        "detailValueTwo":"return_date",&#13;
+        "detailValueThree":"requested_item.type",&#13;
+		"detailValueFour":"stock_location.name"&#13;
+	},&#13;
+	"actionMappings" : {&#13;
+        "clickAction":"navigation"&#13;
+	}&#13;
+}&#13;
+</template></sys_ux_composite_data_template></record_update>]]></serialized_record>
+        <source_class>sys_ux_composite_data_template</source_class>
+        <source_id>eb5fae0ac3f31410051653eeb840dd53</source_id>
+        <source_name>Request card</source_name>
+        <source_sys_id>c0762e4bc3d4a010162053eeb840dddd</source_sys_id>
+        <sys_class_name>sys_app_scan_payload</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 07:03:35</sys_created_on>
+        <sys_id>088e3709d9622010a50b7de3cce7dcf3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_ux_composite_data_template</sys_name>
+        <sys_package display_value="Inventory Tracker Template" source="x_snc_inventory_0">a60d7bcd70222010f87717bbfe6503ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory Tracker Template">a60d7bcd70222010f87717bbfe6503ff</sys_scope>
+        <sys_update_name>sys_app_scan_payload_088e3709d9622010a50b7de3cce7dcf3</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 07:03:35</sys_updated_on>
+        <version>1</version>
+    </sys_app_scan_payload>
+</record_update>

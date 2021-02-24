@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_scan_payload">
+    <sys_app_scan_payload action="INSERT_OR_UPDATE">
+        <referenced_table>sys_app</referenced_table>
+        <scan_instance>6e0d7bcd212220107f099fc337706afe</scan_instance>
+        <serialized_record><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent"><sys_ux_macroponent action="INSERT_OR_UPDATE"><associated_types/><category>page</category><component_dependencies/><composition>[ {
+  "elementId" : "attachment_1",
+  "elementLabel" : "Attachment 1",
+  "propertyValues" : {
+    "table" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "table" ],
+        "category" : "props"
+      }
+    },
+    "sysId" : {
+      "type" : "CONTEXT_BINDING",
+      "binding" : {
+        "address" : [ "sysId" ],
+        "category" : "props"
+      }
+    },
+    "isAttachmentUploadDisabled" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "isReadOnly" : {
+      "type" : "JSON_LITERAL",
+      "value" : false
+    },
+    "mode" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "recordDisplayValue" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "default-slot",
+  "definition" : {
+    "id" : "0e238931bce36c9fe3b52475c69c85a3",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%",
+    "height" : "100%"
+  }
+} ]</composition><da_relay_models/><data>[ ]</data><dispatched_events>f078e8db0f0210107d20409dc4767e94,4578e8db0f0210107d20409dc4767e99,0d78e8db0f0210107d20409dc4767ea1</dispatched_events><extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends><handled_events/><interactions/><interfaces/><internal_event_mappings>{ }</internal_event_mappings><layout>{
+  "default" : {
+    "children" : null,
+    "items" : [{"slotName":"default-slot","rules":{"grid-area":"default-slot"},"styles":{"display":"flex","padding":"1.5rem","height":"auto"}}],
+    "root" : null,
+    "rules" : {"grid-template-rows":"1fr","grid-template-columns":"1fr","grid-template-areas":"'default-slot'"},
+    "styles" : null,
+    "templateId" : null,
+    "type" : "grid"
+  }
+}</layout><macroponent_dependencies/><name>Attachment</name><props>[ {
+  "name" : "table",
+  "label" : "table",
+  "fieldType" : null,
+  "typeMetadata" : null,
+  "valueType" : null,
+  "mandatory" : false,
+  "defaultValue" : null,
+  "description" : "",
+  "readOnly" : false,
+  "selectable" : false
+}, {
+  "name" : "sysId",
+  "label" : "sysId",
+  "fieldType" : null,
+  "typeMetadata" : null,
+  "valueType" : null,
+  "mandatory" : false,
+  "defaultValue" : null,
+  "description" : "",
+  "readOnly" : false,
+  "selectable" : false
+} ]</props><required_translations>[]</required_translations><root_component/><root_component_config>{
+  "bare" : true
+}</root_component_config><root_component_definition/><schema_version>1.0.0</schema_version><state_properties>[ ]</state_properties><sys_class_name>sys_ux_macroponent</sys_class_name><sys_created_by/><sys_created_on/><sys_id>!!!sys_id_2055!!!</sys_id><sys_mod_count/><sys_name/><sys_package display_value="">!!!app_sys_id!!!</sys_package><sys_policy/><sys_scope display_value="">!!!app_sys_id!!!</sys_scope><sys_update_name/><sys_updated_by/><sys_updated_on/></sys_ux_macroponent></record_update>]]></serialized_record>
+        <source_class>sys_ux_macroponent</source_class>
+        <source_id>eb5fae0ac3f31410051653eeb840dd53</source_id>
+        <source_name>Attachment</source_name>
+        <source_sys_id>9532f0508d062010f87788f7e050c8d0</source_sys_id>
+        <sys_class_name>sys_app_scan_payload</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 07:03:56</sys_created_on>
+        <sys_id>019efb098b6220105c6f1ca6609f0b69</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_ux_macroponent</sys_name>
+        <sys_package display_value="Inventory Tracker Template" source="x_snc_inventory_0">a60d7bcd70222010f87717bbfe6503ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory Tracker Template">a60d7bcd70222010f87717bbfe6503ff</sys_scope>
+        <sys_update_name>sys_app_scan_payload_019efb098b6220105c6f1ca6609f0b69</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 07:03:56</sys_updated_on>
+        <version>1</version>
+    </sys_app_scan_payload>
+</record_update>

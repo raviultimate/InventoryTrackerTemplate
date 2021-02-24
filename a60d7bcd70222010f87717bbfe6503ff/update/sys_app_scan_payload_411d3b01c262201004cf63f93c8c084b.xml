@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_scan_payload">
+    <sys_app_scan_payload action="INSERT_OR_UPDATE">
+        <referenced_table>sys_app</referenced_table>
+        <scan_instance>6e0d7bcd212220107f099fc337706afe</scan_instance>
+        <serialized_record><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_chart_color_schemes"><pa_chart_color_schemes action="INSERT_OR_UPDATE"><color_1 display_value="">!!!sys_id_77!!!</color_1><color_10/><color_11/><color_12/><color_13/><color_14/><color_15/><color_16/><color_17/><color_18/><color_19/><color_2 display_value="">!!!sys_id_80!!!</color_2><color_20/><color_21/><color_22/><color_23/><color_24/><color_25/><color_26/><color_27/><color_28/><color_29/><color_3 display_value="">!!!sys_id_72!!!</color_3><color_30/><color_31/><color_32/><color_4 display_value="">!!!sys_id_73!!!</color_4><color_5 display_value="">!!!sys_id_75!!!</color_5><color_6 display_value="">!!!sys_id_74!!!</color_6><color_7 display_value="">!!!sys_id_79!!!</color_7><color_8/><color_9/><description/><name>Inventory donut color 2</name><sys_class_name>pa_chart_color_schemes</sys_class_name><sys_created_by/><sys_created_on/><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>!!!sys_id_81!!!</sys_id><sys_mod_count/><sys_name/><sys_overrides/><sys_package display_value="">!!!app_sys_id!!!</sys_package><sys_policy/><sys_scope display_value="">!!!app_sys_id!!!</sys_scope><sys_update_name/><sys_updated_by/><sys_updated_on/></pa_chart_color_schemes><sys_translated_text action="delete_multiple" query="documentkey=null"/></record_update>]]></serialized_record>
+        <source_class>pa_chart_color_schemes</source_class>
+        <source_id>eb5fae0ac3f31410051653eeb840dd53</source_id>
+        <source_name>Inventory donut color 2</source_name>
+        <source_sys_id>cb1b25550f3120103e97d55566767e41</source_sys_id>
+        <sys_class_name>sys_app_scan_payload</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 06:57:22</sys_created_on>
+        <sys_id>411d3b01c262201004cf63f93c8c084b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>pa_chart_color_schemes</sys_name>
+        <sys_package display_value="Inventory Tracker Template" source="x_snc_inventory_0">a60d7bcd70222010f87717bbfe6503ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory Tracker Template">a60d7bcd70222010f87717bbfe6503ff</sys_scope>
+        <sys_update_name>sys_app_scan_payload_411d3b01c262201004cf63f93c8c084b</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 06:57:22</sys_updated_on>
+        <version>1</version>
+    </sys_app_scan_payload>
+</record_update>

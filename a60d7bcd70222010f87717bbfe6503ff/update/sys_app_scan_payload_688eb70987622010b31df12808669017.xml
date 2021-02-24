@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_scan_payload">
+    <sys_app_scan_payload action="INSERT_OR_UPDATE">
+        <referenced_table>sys_app</referenced_table>
+        <scan_instance>6e0d7bcd212220107f099fc337706afe</scan_instance>
+        <serialized_record>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_data_broker_graphql"&gt;&lt;sys_ux_data_broker_graphql action="INSERT_OR_UPDATE"&gt;&lt;api_name&gt;!!!scope_name!!!.Popular Items&lt;/api_name&gt;&lt;description&gt;Retrives the most requested items for a given department&lt;/description&gt;&lt;mutates_server_data&gt;false&lt;/mutates_server_data&gt;&lt;name&gt;Popular Items&lt;/name&gt;&lt;output_schema/&gt;&lt;private&gt;false&lt;/private&gt;&lt;props&gt;[{&amp;#13;
+  "name": "department",&amp;#13;
+  "label": "Department",&amp;#13;
+  "description": "ID of department",&amp;#13;
+"readOnly": false,&amp;#13;
+"fieldType": "reference",&amp;#13;
+  "mandatory": true,&amp;#13;
+  "typeMetadata": {&amp;#13;
+      "reference": "cmn_department"&amp;#13;
+    }&amp;#13;
+}]&lt;/props&gt;&lt;query/&gt;&lt;required_translations&gt;[{"message":"Department","comment":""},{"message":"ID of department","comment":""}]&lt;/required_translations&gt;&lt;schema_version&gt;1.0.0&lt;/schema_version&gt;&lt;script&gt;&lt;![CDATA[(function buildQuery(query, inputs) {
+    var Query =
+        "{\r\n" +
+        "  GlideAggregateRecord_Query(tableName: \"!!!table_name_2!!!\", queryConditions:\"department=" + inputs.department + "\",groupBy: \"requested_item\", orderBy:\"COUNT^DESC\") {\r\n" +
+        "                 aggregates{\r\n" +
+        "                  count\r\n" +
+        "                  groupBy{\r\n" +
+        "                    field\r\n" +
+        "                    value\r\n" +
+        "                    displayValue\r\n" +
+        "                    _query{\r\n" +
+        "                         GlideRecord_Query{\r\n" +
+        "                                          !!!table_name_0!!!(sys_id:\"$$parent.value$$\"){\r\n" +
+        "                                                           _results{\r\n" +
+        "                                                                   name{\r\n" +
+        "                                                                     displayValue\r\n" +
+        "                                                                   }\r\n" +
+        "                                                                   type{\r\n" +
+        "                                                                     displayValue\r\n" +
+        "                                                                   }\r\n" +
+        "                                                                   image{\r\n" +
+        "                                                                     displayValue\r\n" +
+        "                                                                   }\r\n" +
+        "                                                                   in_stock{\r\n" +
+        "                                                                     displayValue\r\n" +
+        "                                                                   }\r\n" +
+        "                                                                   stock_location{\r\n" +
+        "                                                                     displayValue\r\n" +
+        "                                                                   }\r\n" +
+        "                                                            }\r\n" +
+        "                                          }\r\n" +
+        "                         }\r\n" +
+        "                    }\r\n" +
+        "                  }\r\n" +
+        "                 }\r\n" +
+        "           }\r\n" +
+        "}";
+    query.append(Query);
+})(query, inputs);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_ux_data_broker_graphql&lt;/sys_class_name&gt;&lt;sys_created_by/&gt;&lt;sys_created_on/&gt;&lt;sys_id&gt;!!!sys_id_1999!!!&lt;/sys_id&gt;&lt;sys_mod_count/&gt;&lt;sys_name/&gt;&lt;sys_package display_value=""&gt;!!!app_sys_id!!!&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value=""&gt;!!!app_sys_id!!!&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by/&gt;&lt;sys_updated_on/&gt;&lt;type&gt;script&lt;/type&gt;&lt;/sys_ux_data_broker_graphql&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=null"/&gt;&lt;/record_update&gt;</serialized_record>
+        <source_class>sys_ux_data_broker_graphql</source_class>
+        <source_id>eb5fae0ac3f31410051653eeb840dd53</source_id>
+        <source_name>Popular Items</source_name>
+        <source_sys_id>cbec49eac3b0201088db53eeb840ddda</source_sys_id>
+        <sys_class_name>sys_app_scan_payload</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 07:03:37</sys_created_on>
+        <sys_id>688eb70987622010b31df12808669017</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_ux_data_broker_graphql</sys_name>
+        <sys_package display_value="Inventory Tracker Template" source="x_snc_inventory_0">a60d7bcd70222010f87717bbfe6503ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory Tracker Template">a60d7bcd70222010f87717bbfe6503ff</sys_scope>
+        <sys_update_name>sys_app_scan_payload_688eb70987622010b31df12808669017</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 07:03:37</sys_updated_on>
+        <version>1</version>
+    </sys_app_scan_payload>
+</record_update>

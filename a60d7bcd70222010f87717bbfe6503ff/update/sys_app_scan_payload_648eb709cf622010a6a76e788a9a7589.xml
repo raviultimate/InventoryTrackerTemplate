@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_scan_payload">
+    <sys_app_scan_payload action="INSERT_OR_UPDATE">
+        <referenced_table>sys_app</referenced_table>
+        <scan_instance>6e0d7bcd212220107f099fc337706afe</scan_instance>
+        <serialized_record>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_data_broker_scriptlet"&gt;&lt;sys_ux_data_broker_scriptlet action="INSERT_OR_UPDATE"&gt;&lt;api_name&gt;!!!scope_name!!!.Mock evam response for popular items&lt;/api_name&gt;&lt;description/&gt;&lt;mutates_server_data&gt;false&lt;/mutates_server_data&gt;&lt;name&gt;Mock evam response for popular items&lt;/name&gt;&lt;output_schema/&gt;&lt;private&gt;false&lt;/private&gt;&lt;props&gt;[&amp;#13;
+{&amp;#13;
+"name":"graphqlData",&amp;#13;
+"label":"Return object of popular items",&amp;#13;
+"description":"",&amp;#13;
+"readOnly":false,&amp;#13;
+"fieldType":"object",&amp;#13;
+"mandatory":true,&amp;#13;
+"defaultValue":""&amp;#13;
+}&amp;#13;
+]&lt;/props&gt;&lt;required_translations&gt;[{"message":"Return object of popular items","comment":""}]&lt;/required_translations&gt;&lt;schema_version&gt;1.0.0&lt;/schema_version&gt;&lt;script&gt;&lt;![CDATA[function transform(input) {
+    var response = {
+        "page_cursor": "",
+        "page_size": 3,
+        "page_number": 0,
+        "is_last_page": true,
+        "all_actions": [{
+            "assignmentId": "d46f400473211010c342d5fdbdf6a7cf",
+            "name": "navigation",
+            "label": "Navigation",
+            "actionType": "uxf_client_action",
+            "actionDispatch": "NAVIGATION",
+            "actionPayload": "{\r\n        \"table\": \"{{table}}\",\r\n        \"sysId\": \"{{sys_id}}\",\r\n        \"url\": \"{{navigation_url}}\"\r\n}"
+        }],
+        "selected_filter": "",
+        "items": [],
+        "available_filters": [{
+            "sys_id": "",
+            "label": "Default"
+        }]
+    };
+
+    function cloneObj(obj) {
+        var clone = {};
+        for (var key in obj) {
+            if (typeof(obj[key]) == "object" &amp;&amp; obj[key] != null)
+                clone[key] = cloneObj(obj[key]);
+            else
+                clone[key] = obj[key];
+        }
+        return clone;
+    }
+    var item_template = {
+        "template": "now-card-evam-record",
+        "propValues": {
+            "titleLabel": "",
+            "imageURL": "",
+            "detailValueOne": "",
+            "detailValueTwo": "",
+			"highlightedHeaderBkgColor": "low",
+            "imageType": "image",
+            "detailLabelOne": "Available",
+            "detailLabelTwo": "Location",
+            "clickAction": {
+                "assignmentId": "d46f400473211010c342d5fdbdf6a7cf",
+                "name": "navigation",
+                "label": "Navigation",
+                "actionType": "uxf_client_action",
+                "icon": "",
+                "buttonType": "primary",
+                "actionDispatch": "NAVIGATION",
+                "serverScript": "",
+                "confirmationRequired": false,
+                "confirmationMessage": "",
+                "actionPayload": {
+                    "table": "!!!table_name_0!!!",
+                    "sysId": "",
+                    "url": ""
+                }
+            },
+            "model": {
+                "name": "",
+                "image": "",
+                "in_stock": "",
+                "stock_location.name": "",
+                "sysId": "",
+                "sys_id": "",
+                "table": "!!!table_name_0!!!"
+            }
+        }
+    };
+
+    var item_count = input.graphqlData.data.GlideAggregateRecord_Query.aggregates.length;
+
+    for (var i = 0; i &lt; item_count &amp;&amp; i &lt; 3; i++) {
+
+        response.items.push(cloneObj(item_template));
+
+        var result = input.graphqlData.data.GlideAggregateRecord_Query.aggregates[i].groupBy[0]._query.GlideRecord_Query.!!!table_name_0!!!._results[0];
+        var item_sysid = input.graphqlData.data.GlideAggregateRecord_Query.aggregates[i].groupBy[0].value;
+        var item_props = response.items[i].propValues;
+
+        item_props.clickAction.actionPayload["sysId"] = item_sysid;
+        item_props.model["sysId"] = item_sysid;
+        item_props.model["sys_id"] = item_sysid;
+        item_props["titleLabel"] = result.name.displayValue;
+        item_props.model["name"] = result.name.displayValue;
+		item_props["highlightedHeaderLabel"] = result.type.displayValue;
+		item_props["type"] = result.type.displayValue;
+        item_props["imageURL"] = result.image.displayValue;		
+        item_props.model["image"] = result.image.displayValue;
+        item_props["detailValueOne"] = result.in_stock.displayValue;
+        item_props.model["in_stock"] = result.in_stock.displayValue;
+        item_props["detailValueTwo"] = result.stock_location.displayValue;
+        item_props.model["stock_location.name"] = result.stock_location.displayValue;
+
+    }
+    return response;
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_ux_data_broker_scriptlet&lt;/sys_class_name&gt;&lt;sys_created_by/&gt;&lt;sys_created_on/&gt;&lt;sys_id&gt;!!!sys_id_2002!!!&lt;/sys_id&gt;&lt;sys_mod_count/&gt;&lt;sys_name/&gt;&lt;sys_package display_value=""&gt;!!!app_sys_id!!!&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value=""&gt;!!!app_sys_id!!!&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by/&gt;&lt;sys_updated_on/&gt;&lt;/sys_ux_data_broker_scriptlet&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=null"/&gt;&lt;/record_update&gt;</serialized_record>
+        <source_class>sys_ux_data_broker_scriptlet</source_class>
+        <source_id>eb5fae0ac3f31410051653eeb840dd53</source_id>
+        <source_name>Mock evam response for popular items</source_name>
+        <source_sys_id>baedc12ec3b0201088db53eeb840dd57</source_sys_id>
+        <sys_class_name>sys_app_scan_payload</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 07:03:37</sys_created_on>
+        <sys_id>648eb709cf622010a6a76e788a9a7589</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_ux_data_broker_scriptlet</sys_name>
+        <sys_package display_value="Inventory Tracker Template" source="x_snc_inventory_0">a60d7bcd70222010f87717bbfe6503ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory Tracker Template">a60d7bcd70222010f87717bbfe6503ff</sys_scope>
+        <sys_update_name>sys_app_scan_payload_648eb709cf622010a6a76e788a9a7589</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 07:03:37</sys_updated_on>
+        <version>1</version>
+    </sys_app_scan_payload>
+</record_update>

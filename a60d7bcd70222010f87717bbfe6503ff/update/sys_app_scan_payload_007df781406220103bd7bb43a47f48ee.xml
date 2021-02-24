@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_scan_payload">
+    <sys_app_scan_payload action="INSERT_OR_UPDATE">
+        <referenced_table>sys_app</referenced_table>
+        <scan_instance>6e0d7bcd212220107f099fc337706afe</scan_instance>
+        <serialized_record><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="item_photo" label="Item photo" language="en" table="!!!table_name_0!!!"><sys_documentation action="INSERT_OR_UPDATE"><element>item_photo</element><help/><hint/><label>Item photo</label><language>en</language><name>!!!table_name_0!!!</name><plural>Item photos</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by/><sys_created_on/><sys_id>!!!sys_id_468!!!</sys_id><sys_mod_count/><sys_name/><sys_package display_value="">!!!app_sys_id!!!</sys_package><sys_policy/><sys_scope display_value="">!!!app_sys_id!!!</sys_scope><sys_update_name>sys_documentation_!!!table_name_0!!!_item_photo_en</sys_update_name><sys_updated_by/><sys_updated_on/><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></serialized_record>
+        <source_class>sys_documentation</source_class>
+        <source_id>eb5fae0ac3f31410051653eeb840dd53</source_id>
+        <source_name>Item photo</source_name>
+        <source_sys_id>7f1d2b0570222010f87717bbfe6503a2</source_sys_id>
+        <sys_class_name>sys_app_scan_payload</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 06:58:57</sys_created_on>
+        <sys_id>007df781406220103bd7bb43a47f48ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_documentation</sys_name>
+        <sys_package display_value="Inventory Tracker Template" source="x_snc_inventory_0">a60d7bcd70222010f87717bbfe6503ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory Tracker Template">a60d7bcd70222010f87717bbfe6503ff</sys_scope>
+        <sys_update_name>sys_app_scan_payload_007df781406220103bd7bb43a47f48ee</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 06:58:57</sys_updated_on>
+        <version>1</version>
+    </sys_app_scan_payload>
+</record_update>

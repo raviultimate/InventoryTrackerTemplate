@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_scan_payload">
+    <sys_app_scan_payload action="INSERT_OR_UPDATE">
+        <referenced_table>sys_app</referenced_table>
+        <scan_instance>6e0d7bcd212220107f099fc337706afe</scan_instance>
+        <serialized_record><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_header</name><page display_value="">!!!sys_id_2058!!!</page><required_translations>[{"message":"Display Preferences","comment":""},{"message":"Show sidebar","comment":""},{"message":"Show ribbon","comment":""},{"message":"Notifications","comment":""},{"message":"Show Banners","comment":""},{"message":"Logout","comment":""},{"message":"Show Badge Count","comment":""},{"message":"UserMenu","comment":""},{"message":"Wrap list text","comment":""},{"message":"Settings","comment":""}]</required_translations><route/><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by/><sys_created_on/><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>!!!sys_id_2057!!!</sys_id><sys_mod_count/><sys_name/><sys_package display_value="">!!!app_sys_id!!!</sys_package><sys_policy/><sys_scope display_value="">!!!app_sys_id!!!</sys_scope><sys_update_name/><sys_updated_by/><sys_updated_on/><type>json</type><unique_name>!!!scope_name!!!.!!!sys_id_2058!!!.root.chrome_header</unique_name><value>{&#13;
+  "privatePage": {&#13;
+    "notificationsEnabled": false,&#13;
+    "searchEnabled": true,&#13;
+    "userPrefsEnabled": true,   &#13;
+    "globalTools": {&#13;
+      "collapsingMenuId": 0,&#13;
+      "primaryItems": [&#13;
+        {&#13;
+          "label": "UserMenu",&#13;
+          "icon": "user",&#13;
+          "type": "menu",&#13;
+          "primaryDisplay": "icon",&#13;
+          "value": {&#13;
+            "children": [&#13;
+              {&#13;
+                "label": "Settings",&#13;
+                "type": "menu",&#13;
+                "position": 50,&#13;
+                "value": {&#13;
+                  "children": [&#13;
+                    {&#13;
+                      "label": "Display Preferences",&#13;
+                      "type": "divider"&#13;
+                    },&#13;
+                    {&#13;
+                      "label": "Show ribbon",&#13;
+                      "type": "toggle",&#13;
+                      "value": {&#13;
+                        "_meta": {&#13;
+                          "_type": "userPreferences",&#13;
+                          "_path": "userPrefName",&#13;
+                          "_value": {&#13;
+                            "userPrefName": "workspace.showRibbon"&#13;
+                          },&#13;
+                          "_default": {&#13;
+                            "userPrefName": "true"&#13;
+                          }&#13;
+                        }&#13;
+                      }&#13;
+                    },&#13;
+                    {&#13;
+                      "label": "Show sidebar",&#13;
+                      "type": "toggle",&#13;
+                      "value": {&#13;
+                        "_meta": {&#13;
+                          "_type": "userPreferences",&#13;
+                          "_path": "userPrefName",&#13;
+                          "_value": {&#13;
+                            "userPrefName": "workspace.showAgentAssist"&#13;
+                          },&#13;
+                          "_default": {&#13;
+                            "userPrefName": "true"&#13;
+                          }&#13;
+                        }&#13;
+                      }&#13;
+                    },&#13;
+                    {&#13;
+                      "label": "Wrap list text",&#13;
+                      "type": "toggle",&#13;
+                      "value": {&#13;
+                        "_meta": {&#13;
+                          "_type": "userPreferences",&#13;
+                          "_path": "userPrefName",&#13;
+                          "_value": {&#13;
+                            "userPrefName": "workspace.wrapListText"&#13;
+                          },&#13;
+                          "_default": {&#13;
+                            "userPrefName": "true"&#13;
+                          }&#13;
+                        }&#13;
+                      }&#13;
+                    },&#13;
+                    {&#13;
+                      "label": "Notifications",&#13;
+                      "type": "divider"&#13;
+                    },&#13;
+                    {&#13;
+                      "label": "Show Banners",&#13;
+                      "type": "toggle",&#13;
+                      "value": {&#13;
+                        "_meta": {&#13;
+                          "_type": "userPreferences",&#13;
+                          "_path": "userPrefName",&#13;
+                          "_value": {&#13;
+                            "userPrefName": "workspace.notifications.showPopups"&#13;
+                          },&#13;
+                          "_default": {&#13;
+                            "userPrefName": "true"&#13;
+                          }&#13;
+                        }&#13;
+                      }&#13;
+                    },&#13;
+                    {&#13;
+                      "label": "Show Badge Count",&#13;
+                      "type": "toggle",&#13;
+                      "value": {&#13;
+                        "_meta": {&#13;
+                          "_type": "userPreferences",&#13;
+                          "_path": "userPrefName",&#13;
+                          "_value": {&#13;
+                            "userPrefName": "workspace.notifications.showBadgeCount"&#13;
+                          },&#13;
+                          "_default": {&#13;
+                            "userPrefName": "true"&#13;
+                          }&#13;
+                        }&#13;
+                      }&#13;
+                    }&#13;
+                  ]&#13;
+                }&#13;
+              },&#13;
+              {&#13;
+                "label": "Logout",&#13;
+                "type": "navigation",&#13;
+                "position": 200,&#13;
+                "value": {&#13;
+                  "value": {&#13;
+                    "href": "/logout.do"&#13;
+                  },&#13;
+                  "type": "external"&#13;
+                }&#13;
+              }&#13;
+            ]&#13;
+          }&#13;
+        }&#13;
+      ],&#13;
+      "secondaryItems": []&#13;
+    }&#13;
+  },&#13;
+  "publicPage": {&#13;
+    "actionButtons": []&#13;
+  }&#13;
+}</value></sys_ux_page_property><sys_translated_text action="delete_multiple" query="documentkey=null"/></record_update>]]></serialized_record>
+        <source_class>sys_ux_page_property</source_class>
+        <source_id>eb5fae0ac3f31410051653eeb840dd53</source_id>
+        <source_name>chrome_header</source_name>
+        <source_sys_id>040898300f6c2010bfc0d55566767e09</source_sys_id>
+        <sys_class_name>sys_app_scan_payload</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 07:04:01</sys_created_on>
+        <sys_id>5e9e3f096c622010716bb3a90c9ef68b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_ux_page_property</sys_name>
+        <sys_package display_value="Inventory Tracker Template" source="x_snc_inventory_0">a60d7bcd70222010f87717bbfe6503ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory Tracker Template">a60d7bcd70222010f87717bbfe6503ff</sys_scope>
+        <sys_update_name>sys_app_scan_payload_5e9e3f096c622010716bb3a90c9ef68b</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 07:04:01</sys_updated_on>
+        <version>1</version>
+    </sys_app_scan_payload>
+</record_update>

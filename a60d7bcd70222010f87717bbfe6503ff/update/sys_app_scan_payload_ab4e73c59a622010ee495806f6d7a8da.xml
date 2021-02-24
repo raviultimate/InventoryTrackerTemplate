@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_scan_payload">
+    <sys_app_scan_payload action="INSERT_OR_UPDATE">
+        <referenced_table>sys_app</referenced_table>
+        <scan_instance>6e0d7bcd212220107f099fc337706afe</scan_instance>
+        <serialized_record><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_form_section action="INSERT_OR_UPDATE"><position>0</position><sys_created_by/><sys_created_on/><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>!!!sys_id_1569!!!</sys_id><sys_mod_count/><sys_overrides/><sys_ui_form display_value="">!!!sys_id_1568!!!</sys_ui_form><sys_ui_section display_value="">!!!sys_id_1570!!!</sys_ui_section><sys_updated_by/><sys_updated_on/></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>1</position><sys_created_by/><sys_created_on/><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>!!!sys_id_1571!!!</sys_id><sys_mod_count/><sys_overrides/><sys_ui_form display_value="">!!!sys_id_1568!!!</sys_ui_form><sys_ui_section display_value="">!!!sys_id_1572!!!</sys_ui_section><sys_updated_by/><sys_updated_on/></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>2</position><sys_created_by/><sys_created_on/><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>!!!sys_id_1573!!!</sys_id><sys_mod_count/><sys_overrides/><sys_ui_form display_value="">!!!sys_id_1568!!!</sys_ui_form><sys_ui_section display_value="">!!!sys_id_1574!!!</sys_ui_section><sys_updated_by/><sys_updated_on/></sys_ui_form_section><sys_ui_form action="INSERT_OR_UPDATE"><name>!!!table_name_0!!!</name><roles/><sys_class_name>sys_ui_form</sys_class_name><sys_created_by/><sys_created_on/><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>!!!sys_id_1568!!!</sys_id><sys_mod_count/><sys_name/><sys_overrides/><sys_package display_value="">!!!app_sys_id!!!</sys_package><sys_policy/><sys_scope display_value="">!!!app_sys_id!!!</sys_scope><sys_update_name/><sys_updated_by/><sys_updated_on/><sys_user/><view display_value="Workspace" name="workspace">f8d33ba4182620101d9a95642a45d607</view><view_name/></sys_ui_form></record_update>]]></serialized_record>
+        <source_class>sys_ui_form</source_class>
+        <source_id>eb5fae0ac3f31410051653eeb840dd53</source_id>
+        <source_name>sn_inventory_trakr_inventory_control</source_name>
+        <source_sys_id>6f69f51a5b0120109779b9a23381c7ca</source_sys_id>
+        <sys_class_name>sys_app_scan_payload</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 07:02:43</sys_created_on>
+        <sys_id>ab4e73c59a622010ee495806f6d7a8da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_ui_form</sys_name>
+        <sys_package display_value="Inventory Tracker Template" source="x_snc_inventory_0">a60d7bcd70222010f87717bbfe6503ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory Tracker Template">a60d7bcd70222010f87717bbfe6503ff</sys_scope>
+        <sys_update_name>sys_app_scan_payload_ab4e73c59a622010ee495806f6d7a8da</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 07:02:43</sys_updated_on>
+        <version>1</version>
+    </sys_app_scan_payload>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_template_input_var">
+    <sys_app_template_input_var action="INSERT_OR_UPDATE">
+        <default/>
+        <description>Name of the application</description>
+        <flow_input_variable display_value="application_name">a6aef34970622010f87717bbfe65030b</flow_input_variable>
+        <mandatory>true</mandatory>
+        <name>application_name</name>
+        <sys_class_name>sys_app_template_input_var</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 07:04:19</sys_created_on>
+        <sys_id>72aef34954622010b583e1c1198e554e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>application_name</sys_name>
+        <sys_package display_value="Inventory Tracker Template" source="x_snc_inventory_0">a60d7bcd70222010f87717bbfe6503ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory Tracker Template">a60d7bcd70222010f87717bbfe6503ff</sys_scope>
+        <sys_update_name>sys_app_template_input_var_72aef34954622010b583e1c1198e554e</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 07:04:19</sys_updated_on>
+        <template display_value="Inventory Tracker Template">ceaeb349716220107fcf2dd75098dee0</template>
+        <type>string</type>
+    </sys_app_template_input_var>
+</record_update>

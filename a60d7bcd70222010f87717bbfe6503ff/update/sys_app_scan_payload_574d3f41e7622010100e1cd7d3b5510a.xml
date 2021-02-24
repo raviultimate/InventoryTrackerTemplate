@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_scan_payload">
+    <sys_app_scan_payload action="INSERT_OR_UPDATE">
+        <referenced_table>sys_app</referenced_table>
+        <scan_instance>6e0d7bcd212220107f099fc337706afe</scan_instance>
+        <serialized_record><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_declarative_action_payload_mapping"><sys_declarative_action_payload_mapping action="INSERT_OR_UPDATE"><action_payload_definition display_value="">!!!sys_id_294!!!</action_payload_definition><label>Discontinue item Form</label><model display_value="Form">360935e9534723003eddddeeff7b127d</model><payload_map>sysId={{sysId}}^EQ</payload_map><sys_class_name>sys_declarative_action_payload_mapping</sys_class_name><sys_created_by/><sys_created_on/><sys_id>!!!sys_id_304!!!</sys_id><sys_mod_count/><sys_name/><sys_package display_value="">!!!app_sys_id!!!</sys_package><sys_policy/><sys_scope display_value="">!!!app_sys_id!!!</sys_scope><sys_update_name/><sys_updated_by/><sys_updated_on/></sys_declarative_action_payload_mapping></record_update>]]></serialized_record>
+        <source_class>sys_declarative_action_payload_mapping</source_class>
+        <source_id>eb5fae0ac3f31410051653eeb840dd53</source_id>
+        <source_name>Discontinue item Form</source_name>
+        <source_sys_id>a9b994375f29201088dbc133337313f1</source_sys_id>
+        <sys_class_name>sys_app_scan_payload</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 06:58:21</sys_created_on>
+        <sys_id>574d3f41e7622010100e1cd7d3b5510a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_declarative_action_payload_mapping</sys_name>
+        <sys_package display_value="Inventory Tracker Template" source="x_snc_inventory_0">a60d7bcd70222010f87717bbfe6503ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory Tracker Template">a60d7bcd70222010f87717bbfe6503ff</sys_scope>
+        <sys_update_name>sys_app_scan_payload_574d3f41e7622010100e1cd7d3b5510a</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 06:58:21</sys_updated_on>
+        <version>1</version>
+    </sys_app_scan_payload>
+</record_update>

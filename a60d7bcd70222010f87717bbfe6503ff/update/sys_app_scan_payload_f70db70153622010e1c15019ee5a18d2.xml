@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_scan_payload">
+    <sys_app_scan_payload action="INSERT_OR_UPDATE">
+        <referenced_table>sys_app</referenced_table>
+        <scan_instance>6e0d7bcd212220107f099fc337706afe</scan_instance>
+        <serialized_record><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_attachment action="INSERT_OR_UPDATE"><average_image_color/><chunk_size_bytes>700000</chunk_size_bytes><compressed>true</compressed><content_type>image/svg+xml</content_type><file_name>image</file_name><hash>a833060d3ad250ab7221d6e375bb4cf4717f357bc0f9d1b7d4c5367ecf1dbaeb</hash><image_height/><image_width/><size_bytes>1134</size_bytes><size_compressed>616</size_compressed><state>available</state><sys_created_by/><sys_created_on/><sys_id>!!!sys_id_36!!!</sys_id><sys_mod_count/><sys_updated_by/><sys_updated_on/><table_name>ZZ_YYdb_image</table_name><table_sys_id>!!!sys_id_37!!!</table_sys_id></sys_attachment><sys_attachment_doc action="INSERT_OR_UPDATE"><data>bVPNbpwwEL73KSzn0kr8+AewHcFGykqNKiWntJfctuAsVghGYHY3fYi+Qq99vD5CB7ObJVEMAs/fN9/M2PnV4blBO90PxrYFphHBSLelrUy7LfCP719Dia9Wn/Jht0V7U7m6wJx1B4xqbba1O0k7o/fX9lBgggjiDF68BKUYQZp2KHDtXHcZx/v9PtrzyPbbmBFCYoA/ulweGtM+feRIlVKxt+LVJwQrd8Y1enU//nw2zukqj2fFbKz04zBvvfhoGqd7ZKoCz9uQ4rN5dtFr29j+buN6c0AGmN/bsS/1Tb/palNi5F46XeBnb4f6Ns2oh7lk/0SKC5am6KwQVGSJWCgoiCQ7itBsvxDBqzx+k31BPJ7pHquKz2XlW1/Na/kYDa63T8Cwta0+SeFxajACAGpOxmkf9mMD3nqnW1tVi26ckN3GjUP4rbRtuLbdi48CKgUe++bzxamNX973cY6+6e3YnZJesFRydv0mLxD5pXv7LnqBMCUe4tL0ZaPDstbl09SLJk7CQ/NBlI/sNq5GEHtHs4CiNUsiJhNCFAicBgImkipFVDZJNENr+L36oLM3pwgA4Ls+h3jlwnsGmEAlIzKlkiMRpTDfhCoZwKEXhImMc0TTKJMZlRMlGDlnVEiJbj3DB3THOCBKwWQaKNCySMKZAMSAqiijPBVwn24l0KAMeEBQGiUiI5SDt/ChNBEMyERSUkmyGUTAbVFMBYxFSSoVTTi6Be4Tikx5QEmUkHQiDuolgQfse//vz++/oT+Q09mcuvrBmOLtu8kvFa+C3+TTFV/9Bz5HNVZuBAAA</data><length>808</length><position>1</position><sys_attachment display_value="">!!!sys_id_36!!!</sys_attachment><sys_created_by/><sys_created_on/><sys_id>!!!sys_id_38!!!</sys_id></sys_attachment_doc><sys_attachment_doc action="INSERT_OR_UPDATE"><data>H4sIAAAAAAAAAA==</data><length>16</length><position>0</position><sys_attachment display_value="">!!!sys_id_36!!!</sys_attachment><sys_created_by/><sys_created_on/><sys_id>!!!sys_id_39!!!</sys_id></sys_attachment_doc><db_image action="INSERT_OR_UPDATE"><active>true</active><category>general</category><format/><height/><image>!!!sys_id_36!!!</image><name>!!!scope_name!!!.inventory-submitted.svg</name><size_bytes>1134</size_bytes><sys_class_name>db_image</sys_class_name><sys_created_by/><sys_created_on/><sys_id>!!!sys_id_37!!!</sys_id><sys_mod_count/><sys_name/><sys_package display_value="">!!!app_sys_id!!!</sys_package><sys_policy/><sys_scope display_value="">!!!app_sys_id!!!</sys_scope><sys_update_name/><sys_updated_by/><sys_updated_on/><thumbnail/><width/></db_image></record_update>]]></serialized_record>
+        <source_class>db_image</source_class>
+        <source_id>eb5fae0ac3f31410051653eeb840dd53</source_id>
+        <source_name>inventory-submitted.svg</source_name>
+        <source_sys_id>394d782d53a52010e8f7ddeeff7b123c</source_sys_id>
+        <sys_class_name>sys_app_scan_payload</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 06:57:18</sys_created_on>
+        <sys_id>f70db70153622010e1c15019ee5a18d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>db_image</sys_name>
+        <sys_package display_value="Inventory Tracker Template" source="x_snc_inventory_0">a60d7bcd70222010f87717bbfe6503ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory Tracker Template">a60d7bcd70222010f87717bbfe6503ff</sys_scope>
+        <sys_update_name>sys_app_scan_payload_f70db70153622010e1c15019ee5a18d2</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 06:57:18</sys_updated_on>
+        <version>1</version>
+    </sys_app_scan_payload>
+</record_update>

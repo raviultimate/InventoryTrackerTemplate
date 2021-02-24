@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_scan_payload">
+    <sys_app_scan_payload action="INSERT_OR_UPDATE">
+        <referenced_table>sys_app</referenced_table>
+        <scan_instance>6e0d7bcd212220107f099fc337706afe</scan_instance>
+        <serialized_record><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><required_translations>[]</required_translations><description>null</description><sys_updated_on>2021-02-24 06:39:53</sys_updated_on><suffix>null</suffix><type>json</type><sys_class_name>sys_ux_page_property</sys_class_name><sys_id>!!!sys_id_2060!!!</sys_id><sys_updated_by>maint</sys_updated_by><sys_created_on>2021-01-20 14:35:03</sys_created_on><sys_domain>global</sys_domain><sys_name>global_search_configurations</sys_name><sys_scope>!!!app_sys_id!!!</sys_scope><value>{"globalSearchContextConfigId":"!!!search_config_00731b9d5b231010d9a5ce1a8581c7dd!!!"}</value><sys_created_by>admin</sys_created_by><sys_mod_count>2</sys_mod_count><sys_domain_path>global</sys_domain_path><sys_tags/><sys_package>!!!app_sys_id!!!</sys_package><unique_name>!!!scope_name!!!.cc6358365b0020102f11b9a23381c79b.root.global_search_configurations</unique_name><route>null</route><sys_update_name>sys_ux_page_property_17165946c3b9601088db53eeb840dd40</sys_update_name><name>global_search_configurations</name><page>!!!sys_id_2061!!!</page><choices>null</choices><sys_policy>null</sys_policy></sys_ux_page_property></record_update>]]></serialized_record>
+        <source_class>sys_ux_page_property</source_class>
+        <source_id>eb5fae0ac3f31410051653eeb840dd53</source_id>
+        <source_name>global_search_configurations</source_name>
+        <source_sys_id>17165946c3b9601088db53eeb840dd40</source_sys_id>
+        <sys_class_name>sys_app_scan_payload</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 07:04:01</sys_created_on>
+        <sys_id>6a9e3f0935622010802e8b1f31d3eed3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_ux_page_property</sys_name>
+        <sys_package display_value="Inventory Tracker Template" source="x_snc_inventory_0">a60d7bcd70222010f87717bbfe6503ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory Tracker Template">a60d7bcd70222010f87717bbfe6503ff</sys_scope>
+        <sys_update_name>sys_app_scan_payload_6a9e3f0935622010802e8b1f31d3eed3</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 07:04:01</sys_updated_on>
+        <version>1</version>
+    </sys_app_scan_payload>
+</record_update>

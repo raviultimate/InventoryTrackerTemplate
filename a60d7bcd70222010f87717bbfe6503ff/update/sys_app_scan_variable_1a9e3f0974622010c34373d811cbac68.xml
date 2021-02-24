@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_scan_variable">
+    <sys_app_scan_variable action="INSERT_OR_UPDATE">
+        <name>sys_id_2057</name>
+        <original_value>040898300f6c2010bfc0d55566767e09</original_value>
+        <referenced_table>sys_app</referenced_table>
+        <run_script>false</run_script>
+        <scan_instance>6e0d7bcd212220107f099fc337706afe</scan_instance>
+        <source_id>eb5fae0ac3f31410051653eeb840dd53</source_id>
+        <sys_class_name>sys_app_scan_variable</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-02-24 07:04:01</sys_created_on>
+        <sys_id>1a9e3f0974622010c34373d811cbac68</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_id_2057</sys_name>
+        <sys_package display_value="Inventory Tracker Template" source="x_snc_inventory_0">a60d7bcd70222010f87717bbfe6503ff</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Inventory Tracker Template">a60d7bcd70222010f87717bbfe6503ff</sys_scope>
+        <sys_update_name>sys_app_scan_variable_1a9e3f0974622010c34373d811cbac68</sys_update_name>
+        <sys_updated_by>maint</sys_updated_by>
+        <sys_updated_on>2021-02-24 07:04:01</sys_updated_on>
+        <template_execution_script/>
+        <type display_value="Reference">242d82a65bea101001fb0c370581c7ea</type>
+    </sys_app_scan_variable>
+</record_update>
